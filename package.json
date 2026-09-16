@@ -1,0 +1,19 @@
+{
+  "name": "controle-pagamentos",
+  "version": "1.0.0",
+  "description": "Sistema completo de controle de pagamentos",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.57.4",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
